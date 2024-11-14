@@ -1,0 +1,294 @@
+@import url(location.css);
+
+@font-face {
+    font-family: Rubick;
+    src: url(font/RubikWetPaint-Regular.ttf);
+}
+
+iframe {
+    border-color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(92, 9, 121, 0.6467379188003326) 46%, rgba(0, 212, 255, 1) 100%);
+}
+
+.mainh {
+    font-family: Rubick, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+}
+
+div {
+    width: 500px;
+    margin: auto;
+}
+
+audio {
+    margin: auto;
+}
+
+.link {
+    background-color: rgb(136, 162, 162);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+
+   
+  background-color: #aae3e8;}
+
+ul {
+    background-color: blanchedalmond;
+    font-weight: 550;
+    font-style: oblique;
+    text-transform: capitalize;
+    word-spacing: 3px;
+}
+
+ol {
+    background-color: rgb(174, 210, 242);
+    font-weight: 550;
+    font-style: oblique;
+    text-transform: capitalize;
+    word-spacing: 3px;
+    list-style-position: outside;
+
+
+}
+
+
+h3,
+h1 {
+    font-family: Rubick;
+    text-indent: 45px;
+    font-variant: small-caps;
+    color: rgb(178, 224, 209);
+    background-color: rgba(16, 48, 37, 0.7);
+    font-size: 50px;
+    text-decoration-color: rgb(72, 72, 13);
+
+}
+
+legend {
+    background-color: beige;
+    font-variant: small-caps;
+    color: rgb(21, 63, 49);
+    border-radius: 5px;
+    border: dotted #11072c;
+    padding: 10px;
+}
+
+.mulk {
+    background-color: rgb(22, 101, 75);
+    color: aliceblue;
+    font-variant: small-caps;
+}
+
+table {
+    border: 6px rgb(197, 64, 7);
+    background-color: rgb(103, 244, 244);
+    font-size: larger;
+    font-style: italic;
+    font: bolder;
+    text-align: center;
+    margin: 0px;
+    empty-cells: hide;
+    list-style-position: outside;
+}
+
+th {
+    background-color: rgb(41, 132, 223);
+    border-top: 4px solid #11072c;
+    border-bottom: 6px solid red;
+}
+
+.para {
+    text-align: justify;
+    border: 4px solid #072c07;
+    padding: inherit;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 2.5em;
+    text-indent: 30px;
+
+}
+
+fieldset {
+    border-radius: 20px;
+    border: 2px solid palevioletred;
+}
+
+
+.one {
+    background-color: #fbb1be;
+}
+
+.two {
+    background-color: rgb(250, 181, 193);
+}
+
+.three {
+    background-color: hsl(350, 96%, 80%);
+}
+
+.four {
+    background-color: rgb(249, 155, 171);
+}
+
+.five {
+    background-color: rgb(247, 117, 139);
+}
+
+.six {
+    background-color: rgb(248, 87, 114);
+}
+
+.seven {
+    background-color: rgb(243, 68, 97);
+}
+
+.eight {
+    background-color: rgb(235, 41, 73);
+}
+
+.nine {
+    background-color: rgb(236, 29, 63);
+}
+
+.ten {
+    background-color: rgb(230, 10, 46);
+}
+
+INS {
+    vertical-align: top;
+    font-size: 45px;
+    font-style: bold;
+    color: rgb(4, 4, 54);
+    text-decoration: none;
+    text-shadow: 1px 1px #219ea9;
+
+}
+
+p.para:first-letter {
+    font-size: 250%;
+    color: #153720;
+    font-weight: bolder;
+}
+
+p.para:first-line {
+    font-weight: bold;
+}
+
+input:hover {
+    background-color: #ceadb1;
+}
+
+.slider {
+    background-color: blue;
+    width: 100;
+    height: 500;
+}
+
+ol,
+ul {
+    list-style-image: url(images/icons8-star-15.png);
+}
+
+.mail {
+
+    background-image: url(images/icons8-email-15.png);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+}
+
+
+.main {
+    display: flex;
+}
+
+.oone,
+.ttwo,
+.tthree {
+    padding-left: 30px;
+    margin-left: 5px;
+    background-color: #fbb1be;
+    border: 4px solid #153720;
+    font-style: oblique;
+    font-weight: 1000;
+    font-size: larger;
+    text-transform: capitalize;
+}
+
+form {
+
+    width: 400px;
+    margin: 50px auto;
+    border: 8px solid rgb(201, 156, 156);
+    padding: 20px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.FOM {
+    border: 6px solid rgb(27, 2, 50);
+    width: 400px;
+    height: 50px;
+    font-size: xx-large;
+    text-decoration: solid;
+    background-color: #fbb1be;
+    text-align: center;
+    color: #153720;
+    border-radius: 50px;
+    ;
+}
+
+.submit {
+    background-color: #aae3e8;
+    border-radius: 5px;
+    font-style: italic;
+    font-size: larger;
+    box-shadow: 2px 1px 2px 1px;
+    float: right;
+    cursor: pointer;
+}
+
+input {
+    cursor: cell;
+}
+
+.pass {
+    width: 300px;
+    position: relative;
+}
+
+.pass>input {
+    border: 2px solid #a1a0a4;
+    padding-left: 20px;
+}
+
+.pass>input:focus {
+    outline: none;
+}
+
+.pass>img {
+    width: 15px;
+    position: absolute;
+    left: 5px;
+    bottom: 4px;
+}
+
+.top {
+    width: 40px;
+    position: fixed;
+    right: 60px;
+    bottom: 40px;
+}
+
+.body {
+    background-image: url(images/sven-d-a4S6KUuLeoM-unsplash.jpg);
+    background-size: cover;
+}
+
+.video {
+    background-image: url(images/sven-d-a4S6KUuLeoM-unsplash.jpg);
+    background-size: cover;
+}
