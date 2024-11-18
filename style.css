@@ -34,8 +34,9 @@ a {
 
 body {
 
-   
-  background-color: #5f5b5d;}
+
+    background-color: #5b5e5f;
+}
 
 ul {
     background-color: blanchedalmond;
@@ -291,4 +292,9 @@ input {
 .video {
     background-image: url(images/sven-d-a4S6KUuLeoM-unsplash.jpg);
     background-size: cover;
+}
+
+.solid{
+    color: #25e160;
+    float: 430px;position: relative;
 }

@@ -1,3 +1,19 @@
+.body {
+    background-color: antiquewhite;
+}
 
-footer{color: brown;
-background-color: rgb(43, 226, 113);}
+footer {
+    color: brown;
+    background-color: rgb(213, 226, 218);
+}
+
+.masks {
+    font-size: xx-large;
+    color: rgb(19, 66, 50);
+    margin-left: 20px;
+}
+
+.whatsapp {
+    font-size: 100px;
+    color: rgb(7, 78, 55);margin-left:1000px ;
+}
