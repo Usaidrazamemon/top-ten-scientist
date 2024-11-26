@@ -327,15 +327,36 @@ input {
     width: auto;
 }
 
-@media only screen and (max-width:500px) {
 
- .scimage{width: 400px;}  
-
-
-}
 @media only screen and (max-width:912px) {
 
-    .scimage{width: 800px;}  
+    .scimage{width:800px;}  
+   
+   
+   } @media only screen and (max-width:650px) {
+
+    .scimage{width:550px;}  
    
    
    }
+   @media only screen and (max-width:550px) {
+
+    .scimage{width:400px;}  
+   
+   
+   }
+   @media only screen and (max-width:400px) {
+
+    .scimage{width:300px;}  
+   
+   
+   }
+   @media only screen and (max-width:300px) {
+
+    .scimage{width:250px;}  
+   
+   
+   }
+  
+
+
